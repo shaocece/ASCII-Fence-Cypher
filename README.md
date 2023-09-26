@@ -13,4 +13,11 @@ Cypher and key will have the same length.
 
 For the Decryption, test if the length of the cypher is odd or even in order to decrypt the remainder.
 The position of the ASCII code of the original code will follow the pattern depending on the number of rows of the matrix that was first synthesized.
-Then acquire and decrypt each ASCII code and put them together.
+Then acquire and decrypt each ASCII code and put them together. The remainder wil be added to the final result.
+
+# USE
+Import the file and use encrypt() and decrypt() to make up ur code. 
+
+Two int codes are required for decrypt.
+The code for encrypt must be str and dont accept alphabet letter like d, use capital D instead.
+encrypt() will return two int codes
